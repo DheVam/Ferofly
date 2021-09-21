@@ -70,27 +70,27 @@ const Home = () => {
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={dining} width='30px' height='30px'></img>
+                       <img src={dining} width='30px' height='30px' alt="image"></img>
                        <span>Garden</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={freeWifi} width='30px' height='30px'></img>
+                       <img src={freeWifi} width='30px' height='30px' alt="image"></img>
                        <span>Pool</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={garden} width='30px' height='30px'></img>
+                       <img src={garden} width='30px' height='30px' alt="image"></img>
                        <span>Free Wifi</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={housekeeping} width='30px' height='30px'></img>
+                       <img src={housekeeping} width='30px' height='30px' alt="image"></img>
                        <span>Daily Housekeeping</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={pool} width='30px' height='30px'></img>
+                       <img src={pool} width='30px' height='30px' alt="image"></img>
                        <span>In-Room Dining Service</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>

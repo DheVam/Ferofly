@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import breakfast from './Assets/Svg/breakfast.svg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styled from 'styled-components';
 import image1 from './Assets/images/gallery1.jpg'
@@ -15,27 +14,27 @@ const Gallery = () => {
         <Container>
         <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showIndicators={false} showThumbs={false} width={290} transitionTime={1000}>
         <div>
-        <img src={image1} width='300px' height='600px'></img> 
+        <img src={image1} width='300px' height='600px' alt="image"></img> 
             
         </div>
         <div>
-        <img src={image2} width='300px' height='600px'></img> 
+        <img src={image2} width='300px' height='600px' alt="image"></img> 
         </div>
     </Carousel>
     <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showIndicators={false} showThumbs={false} width={290} transitionTime={1000}>
     <div>
-     <img src={image3} width='300px' height='600px'></img>         
+     <img src={image3} width='300px' height='600px' alt="image"></img>         
      </div>
      <div>
-     <img src={image4} width='300px' height='600px'></img>         
+     <img src={image4} width='300px' height='600px' alt="image"></img>         
      </div>
  </Carousel>
  <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showIndicators={false} showThumbs={false} width={290} transitionTime={1000}>
      <div>
-  <img src={image5} width='300px' height='600px'></img>     
+  <img src={image5} width='300px' height='600px' alt="image"></img>     
   </div>
   <div>
-  <img src={image6} width='300px' height='600px'></img>    
+  <img src={image6} width='300px' height='600px' alt="image"></img>    
   </div>
 </Carousel>
 </Container>
