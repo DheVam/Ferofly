@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Parallax, Background } from "react-parallax";
+import { Parallax} from "react-parallax";
 import bgimage1 from './Assets/images/assets.jpg';
 import bgimage2 from './Assets/images/image2.jpg';
 import bgimage3 from './Assets/images/image3.jpg'
@@ -24,7 +24,7 @@ const Home = () => {
                    -Magnify your Journey-
                </SubText>
            </TextContainer>
-           <Parallax bgImage={bgimage1} bgImageStyle={{height:'631px'},{width:'980px'}} strength={500}>
+           <Parallax bgImage={bgimage1} bgImageStyle={{height:'631px',width:'980px'}} strength={500}>
                <div style={{ height: 500 }}></div>
            </Parallax>
            <DateContainer>
@@ -52,7 +52,7 @@ const Home = () => {
             <h1>ABOUT</h1>
             <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​</p>
            </AboutContainer>
-           <Parallax bgImage={bgimage2} bgImageStyle={{height:'631'},{width:'980px'}} strength={500}>
+           <Parallax bgImage={bgimage2} bgImageStyle={{height:'631',width:'980px'}} strength={500}>
            <div style={{height: 500 }} className="parallax-container">
                <div className="parallax-text">
                <h1>OUR ROOMS</h1>
@@ -65,32 +65,32 @@ const Home = () => {
                <h1>OUR SERVICES</h1>
                <IconContainer>
                    <div>
-                       <img src={breakfast} width='30px' height='30px'></img>
+                       <img src={breakfast} width='30px' height='30px' alt=""></img>
                        <span>breakfast</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={dining} width='30px' height='30px' alt="image"></img>
+                       <img src={dining} width='30px' height='30px' alt=""></img>
                        <span>Garden</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={freeWifi} width='30px' height='30px' alt="image"></img>
+                       <img src={freeWifi} width='30px' height='30px' alt=""></img>
                        <span>Pool</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={garden} width='30px' height='30px' alt="image"></img>
+                       <img src={garden} width='30px' height='30px' alt=""></img>
                        <span>Free Wifi</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={housekeeping} width='30px' height='30px' alt="image"></img>
+                       <img src={housekeeping} width='30px' height='30px' alt=""></img>
                        <span>Daily Housekeeping</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
                    <div>
-                       <img src={pool} width='30px' height='30px' alt="image"></img>
+                       <img src={pool} width='30px' height='30px' alt=""></img>
                        <span>In-Room Dining Service</span>
                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                    </div>
@@ -126,7 +126,7 @@ const Home = () => {
                    </div>
                </IconContainer>
            </ServiceContainer>
-           <Parallax bgImage={bgimage3} bgImageStyle={{height:'631'},{width:'980'}} strength={500}>
+           <Parallax bgImage={bgimage3} bgImageStyle={{height:'631',width:'980'}} strength={500}>
            <div style={{height: 500 }} className="parallax-container">
                <div className="parallax-text">
                <h1>OUR ROOMS</h1>

@@ -14,27 +14,27 @@ const Gallery = () => {
         <Container>
         <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showIndicators={false} showThumbs={false} width={290} transitionTime={1000}>
         <div>
-        <img src={image1} width='300px' height='600px' alt="image"></img> 
+        <img src={image1} width='300px' height='600px' alt=""></img> 
             
         </div>
         <div>
-        <img src={image2} width='300px' height='600px' alt="image"></img> 
+        <img src={image2} width='300px' height='600px' alt=""></img> 
         </div>
     </Carousel>
     <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showIndicators={false} showThumbs={false} width={290} transitionTime={1000}>
     <div>
-     <img src={image3} width='300px' height='600px' alt="image"></img>         
+     <img src={image3} width='300px' height='600px' alt=""></img>         
      </div>
      <div>
-     <img src={image4} width='300px' height='600px' alt="image"></img>         
+     <img src={image4} width='300px' height='600px' alt=""></img>         
      </div>
  </Carousel>
  <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showIndicators={false} showThumbs={false} width={290} transitionTime={1000}>
      <div>
-  <img src={image5} width='300px' height='600px' alt="image"></img>     
+  <img src={image5} width='300px' height='600px' alt=""></img>     
   </div>
   <div>
-  <img src={image6} width='300px' height='600px' alt="image"></img>    
+  <img src={image6} width='300px' height='600px' alt=""></img>    
   </div>
 </Carousel>
 </Container>
